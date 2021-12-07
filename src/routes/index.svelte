@@ -3,10 +3,10 @@
     import type { Position } from "svelte-cubed/types/common";
     import * as THREE from "three";
     import Pendulum from "../lib/Pendulum.svelte";
-    import concreteTextureColorPath from "/Concrete030_2K_Color.jpg";
-    import concreteTextureRoughnessPath from "/Concrete030_2K_Roughness.jpg";
-    import leatherTextureColorPath from "/Leather027_2K_Color.jpg";
-    import leatherTextureRoughnessPath from "/Leather027_2K_Roughness.jpg";
+    import concreteTextureColorPath from "../../static/Concrete030_2K_Color.jpg";
+    import concreteTextureRoughnessPath from "../../static/Concrete030_2K_Roughness.jpg";
+    import leatherTextureColorPath from "../../static/Leather027_2K_Color.jpg";
+    import leatherTextureRoughnessPath from "../../static/Leather027_2K_Roughness.jpg";
 
     type Pendulum = {
         origin: Position;
